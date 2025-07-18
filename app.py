@@ -3,6 +3,8 @@ import pandas as pd
 import numpy as np
 from sklearn.preprocessing import StandardScaler
 from src.pipeline.predict_pipeline import PredictPipeline, Customdata
+import streamlit as st
+
 
 application = Flask(__name__)
 app = application
