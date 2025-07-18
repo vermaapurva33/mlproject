@@ -9,7 +9,7 @@ from src.pipeline.predict_pipeline import PredictPipeline, Customdata
 @st.cache_data
 def load_data():
     # <-- Replace below path with your actual data file path -->
-    df = pd.read_csv("/home/apurva/mlproject/notebook/data/stud.csv")
+    df = pd.read_csv("notebook/data/stud.csv")
     return df
 
 def eda_page(df):
